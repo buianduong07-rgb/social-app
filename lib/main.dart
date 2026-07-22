@@ -12,8 +12,8 @@ Future<void> main() async {
 
   await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
   await Supabase.initialize(
-     url: 'DÁN_PROJECT_URL_CỦA_BẠN',
-     anonKey: 'DÁN_ANON_KEY_CỦA_BẠN',
+     url: 'https://aaetpeavgkxbegwzxkgi.supabase.co/rest/v1/',
+     anonKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFhZXRwZWF2Z2t4YmVnd3p4a2dpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODQ3MzQ3MzUsImV4cCI6MjEwMDMxMDczNX0.fjErz82yo3DS5yKjER6l5gsaljS1eIvptpU3QyjCMLQ',
    );
 
   
