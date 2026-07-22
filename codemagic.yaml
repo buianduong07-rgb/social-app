@@ -1,0 +1,19 @@
+workflows:
+  android-apk-test:
+    name: Build APK de test (Android)
+    max_build_duration: 60
+    environment:
+      flutter: stable
+    scripts:
+      - name: Cai thu vien
+        script: flutter pub get
+      - name: Build file APK (de cai truc tiep len dien thoai)
+        script: flutter build apk --release
+    artifacts:
+      - build/**/outputs/**/*.apk
+    publishing:
+      email:
+        recipients: []
+        notify:
+          success: true
+          failure: true

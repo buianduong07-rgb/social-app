@@ -1,0 +1,49 @@
+name: social_app
+description: Ứng dụng mạng xã hội (MVP) - Flutter + Firebase
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^3.4.0
+  firebase_auth: ^5.3.0
+  cloud_firestore: ^5.4.0
+  firebase_storage: ^12.3.0
+  firebase_messaging: ^15.1.0
+  firebase_crashlytics: ^4.1.0
+
+  # Đăng nhập mạng xã hội
+  google_sign_in: ^6.2.1
+  sign_in_with_apple: ^6.1.1
+
+  # State management
+  flutter_riverpod: ^2.5.1
+
+  # Điều hướng
+  go_router: ^14.2.0
+
+  # UI / Media
+  cached_network_image: ^3.4.0
+  image_picker: ^1.1.2
+  flutter_image_compress: ^2.3.0
+  path_provider: ^2.1.4
+  timeago: ^3.7.0
+  shimmer: ^3.0.0
+
+  # Tiện ích
+  uuid: ^4.5.0
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
