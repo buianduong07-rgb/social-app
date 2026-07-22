@@ -14,9 +14,9 @@ dependencies:
   firebase_core: ^3.4.0
   firebase_auth: ^5.3.0
   cloud_firestore: ^5.4.0
-  supabase_flutter: ^2.5.0
   firebase_messaging: ^15.1.0
   firebase_crashlytics: ^4.1.0
+  supabase_flutter: ^2.5.0
 
   # Đăng nhập mạng xã hội
   google_sign_in: ^6.2.1
