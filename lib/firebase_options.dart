@@ -37,7 +37,7 @@ class DefaultFirebaseOptions {
     appId: '1:998306233395:android:3c5864426c5920c652f746',
     messagingSenderId: '998306233395',
     projectId: 'social-app-7153c',
-    storageBucket: 'social-app-7153c',
+    storageBucket: 'social-app-7153c.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
@@ -45,7 +45,7 @@ class DefaultFirebaseOptions {
     appId: '1:998306233395:android:3c5864426c5920c652f746',
     messagingSenderId: '998306233395',
     projectId: 'social-app-7153c',
-    storageBucket: 'social-app-7153c',
+    storageBucket: 'social-app-7153c.firebasestorage.app',
     iosBundleId: 'com.yourcompany.socialapp',
   );
 }
